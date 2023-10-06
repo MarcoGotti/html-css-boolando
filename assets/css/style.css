@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #region utilities */
+
+:root{
+    --boolando-header: #ff6900;
+    --boolando-sale: #ff0000;
+    --boolando-environ: #008000;
+    --boolando-footer: #1a1a1a;
+}
+
+.container{
+    width: 80%;
+    max-width: 1152px;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 --1rem;
+}
+
+.pos-fix{
+    position: fixed;
+    z-index: 10;
+}
+
+.pos-rel{
+    position: relative;
+}
+
+.pos-abs{
+    position: absolute;
+}
+
+/* #endregion utilities */
+
+/* #region header */
+
+.site-header{
+    background-color: ;
+}
+
+/* #endregion header */

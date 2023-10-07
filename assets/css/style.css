@@ -111,6 +111,26 @@
     background-image: url(../img/1.webp);
 }
 
+/* infos */
+
+.infos{
+    font-size: 12px;
+}
+
+.what{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.price{
+    font-weight: 600;
+    color: var(--boolando-sale)
+}
+
+.price-old{
+    text-decoration: line-through;
+}
+
 /* labels and hearts */
 
 .heart{

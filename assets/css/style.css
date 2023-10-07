@@ -41,6 +41,7 @@
 
 .pos-fix{
     position: fixed;
+    width: 100%;
     z-index: 10;
 }
 
@@ -50,10 +51,6 @@
 
 .pos-abs{
     position: absolute;
-}
-
-.col-3{
-    width: calc((100% / 12) * 3);
 }
 
 .col-4{
@@ -97,15 +94,65 @@
     padding: 2rem;
 }
 
-.item{
-    width: calc((100% / 3) - .5rem);
-    height: 462px;
-    background-color: #ff0000;
-    border: 1px solid black;
-}
-
 #site-main .row{
     gap: 2rem 0;
 }
+
+.item{
+    width: calc((100% / 3) - .5rem);
+}
+
+.picture{
+    height: 500px;
+    background-size: cover;  
+}
+
+#first{
+    background-image: url(../img/1.webp);
+}
+
+/* labels and hearts */
+
+.heart{
+    font-size: 25px;
+    text-align: center;
+    width: 30px;
+    aspect-ratio: 1;
+    background-color: var(--boolando-heafootex);
+    right: 0;
+    top: 6px;
+}
+
+.labels{
+    font-size: 12px;
+    color: var(--boolando-heafootex);
+    font-weight: 600;
+    bottom: 30px;
+}
+
+.sale{
+    background-color: var(--boolando-sale);
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.environment{
+    background-color: var(--boolando-environ);
+    padding: 5px 7px;
+    display: inline-block;
+}
+
+
+
+/* hover */
+
+#first:hover{
+    background-image: url(../img/1b.webp);
+}
+
+.heart:hover{
+    color: red;
+}
+
 
 /* #endregion main */

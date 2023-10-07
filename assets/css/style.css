@@ -91,7 +91,7 @@
 /* #region main */
 
 #site-main{
-    padding: 2rem;
+    padding: 6rem 2rem;
 }
 
 #site-main .row{
@@ -110,6 +110,27 @@
 #first{
     background-image: url(../img/1.webp);
 }
+
+#second{
+    background-image: url(../img/2.webp);
+}
+
+#third{
+    background-image: url(../img/3.webp);
+}
+
+#fourth{
+    background-image: url(../img/4.webp);
+}
+
+#fifth{
+    background-image: url(../img/5.webp);
+}
+
+#sixth{
+    background-image: url(../img/6.webp);
+}
+
 
 /* infos */
 
@@ -170,9 +191,41 @@
     background-image: url(../img/1b.webp);
 }
 
+#second:hover{
+    background-image: url(../img/2b.webp);
+}
+
+#third:hover{
+    background-image: url(../img/3b.webp);
+}
+
+#fourth:hover{
+    background-image: url(../img/4b.webp);
+}
+
+#fifth:hover{
+    background-image: url(../img/5b.webp);
+}
+
+#sixth:hover{
+    background-image: url(../img/6b.webp);
+}
+
 .heart:hover{
     color: red;
 }
 
 
 /* #endregion main */
+
+/* #region footer */
+
+#site-footer{
+    background-color: var(--boolando-footer);
+}
+
+#site-footer .col-4{
+    color: #ffffff;
+}
+
+/* #endregion footer */

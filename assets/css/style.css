@@ -35,6 +35,10 @@
     justify-content: space-between;
 }
 
+.s-even{
+    justify-content: space-evenly;   
+}
+
 .al-cent{
     align-items: center;
 }
@@ -86,6 +90,10 @@
     padding-right: 1rem;
 }
 
+.logo>img{
+    height: 20px;
+}
+
 .actions a{
     padding-left: 5px;
 }
@@ -104,6 +112,7 @@
 
 .item{
     width: calc((100% / 3) - .5rem);
+    min-width: 300px;
 }
 
 .picture{

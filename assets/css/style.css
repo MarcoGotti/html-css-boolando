@@ -39,6 +39,10 @@
     align-items: center;
 }
 
+.ta-end{
+    text-align: end;
+}
+
 .pos-fix{
     position: fixed;
     width: 100%;
@@ -222,10 +226,28 @@
 
 #site-footer{
     background-color: var(--boolando-footer);
+     color: #ffffff;
+     padding: 1.5rem 0
 }
 
-#site-footer .col-4{
-    color: #ffffff;
+#site-footer ul{
+    list-style: none;
+    font-size: 10px;
+    margin-top: 0.5rem;
 }
+
+#site-footer li{
+    padding-right: 0.5rem;
+}
+
+#site-footer h6{
+    padding-bottom: 0.5rem;
+}
+
+#site-footer a{
+    padding-right: 0.2rem;
+}
+
+
 
 /* #endregion footer */
